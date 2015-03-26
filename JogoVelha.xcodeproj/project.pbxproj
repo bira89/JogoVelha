@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443A5E6A1AC451540057623F /* ElementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443A5E681AC451540057623F /* ElementsViewController.m */; };
+		443A5E6B1AC451540057623F /* ElementsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443A5E691AC451540057623F /* ElementsViewController.xib */; };
+		443A5E721AC451700057623F /* hashtag.png in Resources */ = {isa = PBXBuildFile; fileRef = 443A5E6C1AC451700057623F /* hashtag.png */; };
+		443A5E731AC451700057623F /* hashtag2.png in Resources */ = {isa = PBXBuildFile; fileRef = 443A5E6D1AC451700057623F /* hashtag2.png */; };
+		443A5E741AC451700057623F /* imageO.png in Resources */ = {isa = PBXBuildFile; fileRef = 443A5E6E1AC451700057623F /* imageO.png */; };
+		443A5E751AC451700057623F /* imageO2.png in Resources */ = {isa = PBXBuildFile; fileRef = 443A5E6F1AC451700057623F /* imageO2.png */; };
+		443A5E761AC451700057623F /* imageX.png in Resources */ = {isa = PBXBuildFile; fileRef = 443A5E701AC451700057623F /* imageX.png */; };
+		443A5E771AC451700057623F /* imageX2.png in Resources */ = {isa = PBXBuildFile; fileRef = 443A5E711AC451700057623F /* imageX2.png */; };
+		443A5E7A1AC451CA0057623F /* ElementsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 443A5E791AC451CA0057623F /* ElementsView.m */; };
+		443A5E7C1AC452C20057623F /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 443A5E7B1AC452C20057623F /* empty.png */; };
 		44D24DD11AC44FEF00F5C894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D24DD01AC44FEF00F5C894 /* main.m */; };
 		44D24DD41AC44FEF00F5C894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D24DD31AC44FEF00F5C894 /* AppDelegate.m */; };
 		44D24DD61AC44FEF00F5C894 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D24DD51AC44FEF00F5C894 /* Images.xcassets */; };
@@ -25,6 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		443A5E671AC451540057623F /* ElementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementsViewController.h; sourceTree = "<group>"; };
+		443A5E681AC451540057623F /* ElementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementsViewController.m; sourceTree = "<group>"; };
+		443A5E691AC451540057623F /* ElementsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElementsViewController.xib; sourceTree = "<group>"; };
+		443A5E6C1AC451700057623F /* hashtag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hashtag.png; sourceTree = "<group>"; };
+		443A5E6D1AC451700057623F /* hashtag2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hashtag2.png; sourceTree = "<group>"; };
+		443A5E6E1AC451700057623F /* imageO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageO.png; sourceTree = "<group>"; };
+		443A5E6F1AC451700057623F /* imageO2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageO2.png; sourceTree = "<group>"; };
+		443A5E701AC451700057623F /* imageX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageX.png; sourceTree = "<group>"; };
+		443A5E711AC451700057623F /* imageX2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageX2.png; sourceTree = "<group>"; };
+		443A5E781AC451CA0057623F /* ElementsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementsView.h; sourceTree = "<group>"; };
+		443A5E791AC451CA0057623F /* ElementsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementsView.m; sourceTree = "<group>"; };
+		443A5E7B1AC452C20057623F /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
 		44D24DCB1AC44FEF00F5C894 /* JogoVelha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogoVelha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D24DCF1AC44FEF00F5C894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44D24DD01AC44FEF00F5C894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,6 +80,8 @@
 		44D24DC21AC44FEF00F5C894 = {
 			isa = PBXGroup;
 			children = (
+				443A5E781AC451CA0057623F /* ElementsView.h */,
+				443A5E791AC451CA0057623F /* ElementsView.m */,
 				44D24DCD1AC44FEF00F5C894 /* JogoVelha */,
 				44D24DE11AC44FEF00F5C894 /* JogoVelhaTests */,
 				44D24DCC1AC44FEF00F5C894 /* Products */,
@@ -76,6 +100,16 @@
 		44D24DCD1AC44FEF00F5C894 /* JogoVelha */ = {
 			isa = PBXGroup;
 			children = (
+				443A5E7B1AC452C20057623F /* empty.png */,
+				443A5E6C1AC451700057623F /* hashtag.png */,
+				443A5E6D1AC451700057623F /* hashtag2.png */,
+				443A5E6E1AC451700057623F /* imageO.png */,
+				443A5E6F1AC451700057623F /* imageO2.png */,
+				443A5E701AC451700057623F /* imageX.png */,
+				443A5E711AC451700057623F /* imageX2.png */,
+				443A5E671AC451540057623F /* ElementsViewController.h */,
+				443A5E681AC451540057623F /* ElementsViewController.m */,
+				443A5E691AC451540057623F /* ElementsViewController.xib */,
 				44D24DD21AC44FEF00F5C894 /* AppDelegate.h */,
 				44D24DD31AC44FEF00F5C894 /* AppDelegate.m */,
 				44D24DD51AC44FEF00F5C894 /* Images.xcassets */,
@@ -191,8 +225,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443A5E761AC451700057623F /* imageX.png in Resources */,
+				443A5E751AC451700057623F /* imageO2.png in Resources */,
+				443A5E731AC451700057623F /* hashtag2.png in Resources */,
 				44D24DD91AC44FEF00F5C894 /* LaunchScreen.xib in Resources */,
+				443A5E6B1AC451540057623F /* ElementsViewController.xib in Resources */,
+				443A5E741AC451700057623F /* imageO.png in Resources */,
+				443A5E721AC451700057623F /* hashtag.png in Resources */,
+				443A5E7C1AC452C20057623F /* empty.png in Resources */,
 				44D24DD61AC44FEF00F5C894 /* Images.xcassets in Resources */,
+				443A5E771AC451700057623F /* imageX2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D24DD41AC44FEF00F5C894 /* AppDelegate.m in Sources */,
+				443A5E7A1AC451CA0057623F /* ElementsView.m in Sources */,
 				44D24DD11AC44FEF00F5C894 /* main.m in Sources */,
+				443A5E6A1AC451540057623F /* ElementsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +438,7 @@
 				44D24DEA1AC44FEF00F5C894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44D24DEB1AC44FEF00F5C894 /* Build configuration list for PBXNativeTarget "JogoVelhaTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +447,7 @@
 				44D24DED1AC44FEF00F5C894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
